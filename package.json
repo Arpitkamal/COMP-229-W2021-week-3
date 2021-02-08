@@ -1,9 +1,13 @@
 {
-  "name": "week3-demo1",
-  "version": "0.0.0",
+  "name": "comp229-f2021-week3",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^10.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -17,5 +21,18 @@
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "demo app for COMP229 week 3",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arpitkamal/COMP-229-W2021-week-3.git"
+  },
+  "author": "Arpitkamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arpitkamal/COMP-229-W2021-week-3/issues"
+  },
+  "homepage": "https://github.com/Arpitkamal/COMP-229-W2021-week-3#readme"
 }
