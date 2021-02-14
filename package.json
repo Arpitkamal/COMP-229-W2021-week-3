@@ -27,12 +27,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arpitkamal/COMP-229-W2021-week-3.git"
+    "url": "git+https://github.com/Arpitkamal/Express-Portfolio.git"
   },
   "author": "Arpitkamal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Arpitkamal/COMP-229-W2021-week-3/issues"
+    "url": "https://github.com/Arpitkamal/Express-Portfolio.git/issues"
   },
-  "homepage": "https://github.com/Arpitkamal/COMP-229-W2021-week-3#readme"
+  "homepage": "https://github.com/Arpitkamal/Express-Portfolio.git#readme",
+  "keywords": []
 }

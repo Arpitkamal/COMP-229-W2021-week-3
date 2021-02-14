@@ -3,27 +3,27 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home',});
+  res.render('home', { title: 'Home',});
 });
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home',});
+  res.render('home', { title: 'Home',});
 });
 
 /* GET About page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About',});
+  res.render('about', { title: 'About',});
 });
 
 /* GET Products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products',});
+router.get('/projects', function(req, res, next) {
+  res.render('project', { title: 'Projects',});
 });
 
 /* GET Services page. */
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services',});
+  res.render('services', { title: 'Services',});
 });
 
 /* GET Services page. */
