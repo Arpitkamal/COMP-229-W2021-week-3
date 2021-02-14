@@ -6,26 +6,33 @@
         <%- include partials/main_nav %>
     </header>
 	</head>
-	<body> 
-	<div class="container-fluid padding">
-	  <div class="row text-center padding">
-		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fas fa-code"></i>
-			<h3>Frontend</h3>
-			<p>jsdflf</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fas fa-code"></i>
+	<body > 
+   <div class="col-md-12 text-center" style="padding-top:2rem;">
+        <h1 >Welcome to the  <%= title%> Page</h1>
+    </div>
+   <div class="col-md-12 mx-2 my-2 "style="padding:4rem 4rem 4rem 8rem;background-color: white);">
+     <div class="col-md-12 mt-4">
+          <div class="row">
+		   <div class="col-xs-12 col-sm-6 col-md-6">
+			 <i class="fas fa-lg fa-code" style="font-size: 50px; padding: 2rem 2rem 2rem 2rem;" ></i>
+			 <h3>Frontend</h3>
+			 <p><b style="color:black;">HTML and CSS</b></p>
+			 <p><b style="color:black;">JavaScript</b></p>
+		   </div>
+		  <div class="col-xs-12 col-sm-6 col-md-6">
+			<i class="fas fa-lg fa-code"style="font-size: 50px; padding: 2rem 2rem 2rem 2rem;" ></i>
 			<h3>Artificial Intelligence</h3>
-			<p>jsdflf</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4">
-			<i class="fas fa-code"></i>
-			<h3>Artificial Intelligence</h3>
-			<p></p>
-		</div>
-	</div>
-	<hr class="my-4">
+			<p><b style="color:black;">TensorFlow<b></p>
+            <p><b>PyTorch</b></p>
+			<p><b>keras</b></p>
+			<p><b>Scikit-Learn</b></p>
+		  </div>
+               
+          </div>
+     </div>
 </div>
 </body>
+<footer class="footer mt-auto py-2 fixed-bottom" style="background-color:rgb(52,58,64)">
+        <%- include partials/footer%>
+    </footer>
 </html>
